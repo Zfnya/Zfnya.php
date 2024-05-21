@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: whitesmoke;
+  text-align: center;
+}
+header {
+  background-color: #333;
+  color: whitesmoke;
+  padding: 4px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+nav {
+  background-color: #444;
+  padding: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.section {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 22px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img {
+  width: 520px; /* Atur lebar yang diinginkan */
+  height: 300px; /* Atur tinggi yang diinginkan */
+  object-fit: cover; /* Gambar akan memotong untuk menyesuaikan kotak */
+}

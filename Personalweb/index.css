@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: whitesmoke;
+  text-align: center;
+}
+header {
+  background-color: #333;
+  color: whitesmoke;
+  padding: 4px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+nav {
+  background-color: #444;
+  padding: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+section {
+  padding: 30px;
+}
+.round-image {
+  border-radius: 50%; /* Membuat foto menjadi berbentuk bulat */
+}
